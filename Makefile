@@ -13,7 +13,7 @@ check:
 	$(JEKYLL) doctor
 	$(HTMLPROOF) --check-html \
 		--http-status-ignore 999 \
-		--internal-domains localhost:4000 \
+		--internal-domains localhost:8080 \
 		--assume-extension \
 		_site
 

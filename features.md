@@ -1,8 +1,16 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Features of Noel's portfolio
+permalink: /features/
 ---
+
+A list of features that are needed to build out:
+
+<ol>
+    <li>Navbar</li>
+    <li>Footer with sticky option</li>
+</ol>
+
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
