@@ -2,8 +2,10 @@
 <html>
   {% include header.html%}
   <body>
-    {% include navigation.html %}
-    {{ content }}
-    {% include footer.html %}
+    <div class="h-100 d-flex flex-column justify-content-start align-items-stretch align-content-stretch">
+      {% include navigation.html %}
+        {{ content }}
+      {% include footer.html %}
+    </div>
   </body>
 </html>

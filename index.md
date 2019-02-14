@@ -3,6 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Home
+title: Home Page
 ---
-<p>This is the index.md file.</p>
+
+
+<div class="d-flex flex-grow-1 flex-row align-items-center justify-content-center">
+    <p class="text-success">This is the index.md file.</p>
+</div>
+
