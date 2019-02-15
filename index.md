@@ -17,7 +17,7 @@ title: Home Page
     <div class="card" style="width: 22rem;">
       <div class="card-body">
         <h5 class="card-title">Noel Torres</h5>
-        <p class="card-text">Portland's Favorite Web Designer</p>
+        <p class="card-text">{{ site.description }}</p>
         <a href="/projects/" class="btn btn-primary">View Projects</a>
       </div>
     </div>
