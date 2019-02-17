@@ -1,7 +1,15 @@
--   title: TriMet App
-    description: Starting to build a Transit Tracker App for Trimet.
+-   title: TriMet
+    description: As one of TriMet's designers, I focus on digital interfaces.
     permalink: /projects/trimet/
-    featuredImage: 
+    featuredImage:  https://via.placeholder.com/720x280
+    projectList:
+        -   projectTitle: Designing the new Transit Tracker
+            projectLink: //somelink.com
+        -   projectTitle: Flythrough animations for new servce
+            projectLink: //somelink.com
+        -   projectTitle: New blog, new Riders Club
+            projectLink: //blog.trimet.org
+            
     
 -   title: Attensa
     description: Building a user interface for information management.
@@ -10,3 +18,7 @@
 -   title: Hop FastPass
     description: Hopsters and animating them!
     permalink: /projects/hopfastpass/
+    
+-   title: Cascadia Threads
+    description: Pacific Northwest Apparel
+    permalink: /projects/cascadiathreads/
