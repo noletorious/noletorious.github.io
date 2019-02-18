@@ -16,9 +16,9 @@
 title: Noel Torres
 email: hello@noletorious.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Portland's Favorite Web Desginer
+  Portland's Favorite Web Designer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://noletorious.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: noletorious
 github_username:  noletorious
 

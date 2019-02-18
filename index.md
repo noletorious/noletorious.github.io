@@ -23,19 +23,19 @@ title: Noel Torres - Portfolio
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 card-img-top" src="https://via.placeholder.com/720x280" alt="First slide">
+      <img class="d-block w-100 card-img-top" src="{{'/assets/images/portland-hood-720x280.jpg' | prepend: site.baseurl}}" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 card-img-top" src="https://via.placeholder.com/720x280" alt="Second slide">
+      <img class="d-block w-100 card-img-top" src="{{'/assets/images/trimet.jpg' | prepend: site.baseurl}}" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 card-img-top" src="https://via.placeholder.com/720x280" alt="Third slide">
+      <img class="d-block w-100 card-img-top" src="{{'/assets/images/cascadiathreads.jpg' | prepend: site.baseurl}}" alt="Third slide">
     </div>
   </div>
 </div>
-      <div class="card-block" style="z-index:2000;">
+      <div class="card-block bg-light" style="z-index:2000;">
         <div class="card-body">
-          <img src="https://via.placeholder.com/75x75" class="rounded-circle float-right" alt="" style="margin:-3rem 0 1rem;"/>
+          <img src="/assets/images/noletorious.jpg" width="75" class="rounded-circle float-right" alt="" style="margin:-3rem 0 1rem;"/>
           <!--{{'/assets/vendor/fa-all.min.js' | prepend: site.baseurl}}-->
           <h5 class="card-title">{{ site.title }}</h5>
           <p class="card-text">{{ site.description }}</p>

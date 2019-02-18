@@ -1,24 +1,49 @@
 -   title: TriMet
     description: As one of TriMet's designers, I focus on digital interfaces.
     permalink: /projects/trimet/
-    featuredImage:  https://via.placeholder.com/720x280
+    featuredImage:  /assets/images/trimet.jpg
+    longDescription: As one of TriMet's designers, I focus on digital interfaces and creating new visuals usually having to do with 2D animation.
     projectList:
         -   projectTitle: Designing the new Transit Tracker
             projectLink: //somelink.com
-        -   projectTitle: Flythrough animations for new servce
-            projectLink: //somelink.com
+        -   projectTitle: Preview Line 74-162nd Ave Flythrough
+            projectLink: https://www.youtube.com/watch?v=BO72XAPARzM
         -   projectTitle: New blog, new Riders Club
             projectLink: //blog.trimet.org
             
     
 -   title: Attensa
     description: Building a user interface for information management.
+    featuredImage: /assets/images/attensa.jpg
     permalink: /projects/attensa/
+    projectList:
+    -   projectTitle: Design Reference
+        projectLink: //
+    -   projectTitle: Infographics
+        projectLink: //
+    -   projectTitle: Onboarding User guide
+        projectLink: //
     
 -   title: Hop FastPass
-    description: Hopsters and animating them!
+    description: Heavy 2D animation, video production, webpage designs, and more.
+    featuredImage: /assets/images/hopfastpass.jpg
     permalink: /projects/hopfastpass/
+    projectList:
+    -   projectTitle: Hop How to videos
+        projectLink: https://www.youtube.com/watch?v=EE-is5yXBu4&list=PLtJW_Q-z9fw84dtHW2sraG_q_MzS_b-A8
+    -   projectTitle: Website myhopcard.com
+        projectLink: //myhopcard.com
+    -   projectTitle: Hopster Holiday Animations
+        projectLink: https://dribbble.com/shots/3802736-Hop-Tap
     
 -   title: Cascadia Threads
-    description: Pacific Northwest Apparel
+    description: Designing the Pacific Northwest
+    featuredImage: /assets/images/cascadiathreads.jpg
     permalink: /projects/cascadiathreads/
+    projectList:
+    -   projectTitle: Website build
+        projectLink: https://cascadiathreads.com
+    -   projectTitle: Apparel Design and Photography
+        projectLink: http://instagram.com/cascadiathreads/myhopcard.com
+    -   projectTitle: Logo Animation
+        projectLink: https://dribbble.com/shots/4073010-Spacey-Hues

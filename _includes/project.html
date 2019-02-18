@@ -1,0 +1,48 @@
+<div class="container pt-5 pb-5">
+    <div class="row">
+        <div class="col">
+            {% for project in site.data.projects %}
+                {% if page.title == project.title %}
+                    {% assign selectedProject = project %}
+                        <h1>{{ project.title }}</h1>
+                        <p>{{ project.longDescription }}</p>
+                {% endif %}
+            {% endfor %}
+        
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <table class="table table-striped">
+              <tbody>
+              {% for project in site.data.projects %}
+                {% if page.title == project.title %}
+                    {% assign selectedProject = project %}
+                    {% for projectItem in selectedProject.projectList %}
+                      <tr>
+                          <td>{{ projectItem.projectTitle }}</td>
+                          <td>
+                            <a href="{{ projectItem.projectLink }}">
+                                <i class="fas fa-external-link-square-alt"></i>
+                            </a>
+                        </td>
+                      </tr>
+                    {% endfor %}
+                {% endif %}
+              {% endfor %}
+              </tbody>
+            </table>
+        </div>
+        <div class="col-sm">
+        {% for project in site.data.projects %}
+            {% if page.title == project.title %}
+                {% assign projectFeaturedImage = project.featuredImage %}
+            {% endif %}
+        {% endfor %}    
+            <img class="d-block w-100 border rounded" src="{{ projectFeaturedImage }}" alt="Third" />
+        </div>
+    </div>
+</div>
+<!--End content-->
