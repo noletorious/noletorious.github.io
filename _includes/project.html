@@ -1,10 +1,10 @@
-<div class="container pt-5 pb-5">
+<div class="container pb-3">
     <div class="row">
         <div class="col">
             {% for project in site.data.projects %}
                 {% if page.title == project.title %}
                     {% assign selectedProject = project %}
-                        <h1>{{ project.title }}</h1>
+                        <img src="{{ selectedProject.pageImage }}" class="img-fluid mb-3" alt="{{ selectedProject.title }}" />
                         <p>{{ project.longDescription }}</p>
                 {% endif %}
             {% endfor %}
@@ -14,7 +14,7 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-sm">
+        <div class="col-sm-8">
             <table class="table table-striped">
               <tbody>
               {% for project in site.data.projects %}
@@ -22,9 +22,10 @@
                     {% assign selectedProject = project %}
                     {% for projectItem in selectedProject.projectList %}
                       <tr>
+                          <td><small class="text-muted">{{ projectItem.projectYear  }}</small></td>
                           <td>{{ projectItem.projectTitle }}</td>
                           <td>
-                            <a href="{{ projectItem.projectLink }}">
+                            <a href="{{ projectItem.projectLink }}" target="_new">
                                 <i class="fas fa-external-link-square-alt"></i>
                             </a>
                         </td>
@@ -35,7 +36,7 @@
               </tbody>
             </table>
         </div>
-        <div class="col-sm">
+        <div class="col-sm-4">
         {% for project in site.data.projects %}
             {% if page.title == project.title %}
                 {% assign projectFeaturedImage = project.featuredImage %}

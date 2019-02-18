@@ -2,14 +2,18 @@
     description: As one of TriMet's designers, I focus on digital interfaces.
     permalink: /projects/trimet/
     featuredImage:  /assets/images/trimet.jpg
-    longDescription: As one of TriMet's designers, I focus on digital interfaces and creating new visuals usually having to do with 2D animation.
+    pageImage: /assets/images/tilikum.jpg
+    longDescription: As one of TriMet's designers, I focus on creating design solutions that have to do with screens from interactive kiosks, mobiles apps, digital signage, and more...
     projectList:
         -   projectTitle: Designing the new Transit Tracker
-            projectLink: //somelink.com
+            projectLink: https://trimet.org/#/tracker
+            projectYear: WIP
         -   projectTitle: Preview Line 74-162nd Ave Flythrough
             projectLink: https://www.youtube.com/watch?v=BO72XAPARzM
+            projectYear: 2018
         -   projectTitle: New blog, new Riders Club
             projectLink: //blog.trimet.org
+            projectYear: 2019
             
     
 -   title: Attensa

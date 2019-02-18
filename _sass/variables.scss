@@ -3,8 +3,24 @@
 * Create custom variables here using sass
 */
 
-@import url('https://fonts.googleapis.com/css?family=Aleo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700');
 
 $custom-font-size: 50px;
-$font-family-sans-serif: "Aleo", sans-serif;
-$font-size-base: 1rem;
+$font-family-sans-serif: "Crimson Text", sans-serif;
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-sm:                $font-size-base * .875 !default;
+
+$navbar-light-active-color: black !default;
+$navbar-brand-font-size: $font-size-base !default;
+$navbar-toggler-font-size: $font-size-base !default;
+$navbar-toggler: $font-size-sm !default;
+$navbar-light-toggler-border-color: transparent !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 720px,
+  xl: 720px
+) !default;
