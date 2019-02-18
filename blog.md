@@ -10,17 +10,17 @@ permalink: /blog/
 <div class="container">
     <div class="row">
         <div class="col">
-          <ul>
-            {% for post in site.posts %}
-              <li>
-                <a href="{{ post.url }}">
-                  <span>{{ post.date }}</span>
-                  <h2>{{ post.title }}</h2>
-                  <p>{{ post.description }}</p>
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
+          {% for post in site.posts %}
+            <a href="{{ post.url }}">
+              <div class="card">
+                <div class="card-body">
+                      <span>{{ post.date | date: "%B %d, %Y" }} </span>
+                      <h2 class="font-weight-bold mb-0">{{ post.title }}</h2>
+                      <p class="mb-0">{{ post.description }}</p>
+                </div>
+              </div>
+            </a>
+          {% endfor %}
         </div>
     </div>
 </div>

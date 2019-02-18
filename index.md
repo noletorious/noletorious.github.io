@@ -26,16 +26,17 @@ title: Noel Torres - Portfolio
       <img class="d-block w-100 card-img-top" src="{{'/assets/images/trimet.jpg' | prepend: site.baseurl}}" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 card-img-top" src="{{'/assets/images/portland-hood-720x280.jpg' | prepend: site.baseurl}}" alt="Second slide">
+      <img class="d-block w-100 card-img-top" src="{{'/assets/images/cascadiathreads.jpg' | prepend: site.baseurl}}" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 card-img-top" src="{{'/assets/images/cascadiathreads.jpg' | prepend: site.baseurl}}" alt="Third slide">
+      <img class="d-block w-100 card-img-top" src="{{'/assets/images/portland-hood-720x280.jpg' | prepend: site.baseurl}}" alt="Second slide">
     </div>
   </div>
 </div>
       <div class="card-block bg-light" style="z-index:1;">
         <div class="card-body" >
             <img
+            id="noletorious-home"
             src="/assets/images/noletorious.jpg" 
             width="90" 
             class="rounded-circle float-right" 
@@ -43,10 +44,15 @@ title: Noel Torres - Portfolio
             style="margin:-4rem 1rem 1rem 0rem;"
             data-toggle="tooltip"
             data-placement="bottom"
-            title="<a href='/projects'>View Projects</a>"
+            title="Currently not looking for work"
             />
-          <h5 class="card-title">{{ site.title }}</h5>
+          <h3 class="card-title font-weight-bold mb-0">{{ site.title }}</h3>
           <p class="card-text">{{ site.description }}</p>
+          <ul class="list-group list-group-flush text-muted">
+            <li class="list-group-item"><i class="fas fa-terminal fa-xs"></i> &nbsp; Mongo, Express, React, Nodejs</li>
+            <li class="list-group-item"><i class="fab fa-adobe fa-sm"></i> &nbsp; PS, AI, XD, AE, DW</li>
+          </ul>
+          <a style="border-radius:0 0 .25rem .25rem" href="/projects/" class="btn btn-secondary btn-sm">View Projects</a>
         </div>
       </div>
     </div>

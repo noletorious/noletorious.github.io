@@ -5,15 +5,19 @@
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700');
 
-$custom-font-size: 50px;
 $font-family-sans-serif: "Crimson Text", sans-serif;
 
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg:                $font-size-base * 1.25 !default;
 $font-size-sm:                $font-size-base * .875 !default;
 
+$link-color: rgba(0,0,0,0.5);
+$link-hover-color: rgba(0,0,0,1) !default;
+
 $navbar-light-active-color: black !default;
 $navbar-brand-font-size: $font-size-base !default;
+$navbar-light-brand-color: $link-color !default;
+
 $navbar-toggler-font-size: $font-size-base !default;
 $navbar-toggler: $font-size-sm !default;
 $navbar-light-toggler-border-color: transparent !default;

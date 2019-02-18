@@ -40,9 +40,12 @@
         {% for project in site.data.projects %}
             {% if page.title == project.title %}
                 {% assign projectFeaturedImage = project.featuredImage %}
+                {% assign projectWebsite = project.website %}
             {% endif %}
-        {% endfor %}    
-            <img class="d-block w-100 border rounded" src="{{ projectFeaturedImage }}" alt="Third" />
+        {% endfor %}
+            <a href="{{ projectWebsite }}" target="_new">
+                <img class="d-block w-100 border rounded" src="{{ projectFeaturedImage }}" alt="Third" />
+            </a>
         </div>
     </div>
 </div>

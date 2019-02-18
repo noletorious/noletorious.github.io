@@ -1,9 +1,10 @@
 -   title: TriMet
+    website: http://trimet.org
     description: As one of TriMet's designers, I focus on digital interfaces.
+    longDescription: As one of two TriMet web designers, I focus on creating design solutions that have to do with screens from interactive kiosks, mobiles apps, digital signage, and more...
     permalink: /projects/trimet/
     featuredImage:  /assets/images/trimet.jpg
     pageImage: /assets/images/tilikum.jpg
-    longDescription: As one of TriMet's designers, I focus on creating design solutions that have to do with screens from interactive kiosks, mobiles apps, digital signage, and more...
     projectList:
         -   projectTitle: Designing the new Transit Tracker
             projectLink: https://trimet.org/#/tracker
@@ -17,37 +18,55 @@
             
     
 -   title: Attensa
+    website: http://attensa.com
     description: Building a user interface for information management.
+    longDescription: Attensa understands how to get the right information, to the right people, at the right time. My role was to build proof of concept designs and work through use cases with engineers and product managers.
     featuredImage: /assets/images/attensa.jpg
+    pageImage: /assets/images/attensa-2.jpg
     permalink: /projects/attensa/
     projectList:
     -   projectTitle: Design Reference
         projectLink: //
-    -   projectTitle: Infographics
+        projectYear: 2016
+    -   projectTitle: Information Management Infographic
         projectLink: //
+        projectYear: 2015
     -   projectTitle: Onboarding User guide
         projectLink: //
+        projectYear: 2014
     
 -   title: Hop FastPass
+    website: http://myhopcard.com
     description: Heavy 2D animation, video production, webpage designs, and more.
+    longDescription: Hop FastPass is Portland's new ticket to ride transit. From animations to web design, I help bring to life the world of Hopsters.
     featuredImage: /assets/images/hopfastpass.jpg
+    pageImage: /assets/images/hopfastpass-2.jpg
     permalink: /projects/hopfastpass/
     projectList:
     -   projectTitle: Hop How to videos
         projectLink: https://www.youtube.com/watch?v=EE-is5yXBu4&list=PLtJW_Q-z9fw84dtHW2sraG_q_MzS_b-A8
+        projectYear: WIP
     -   projectTitle: Website myhopcard.com
         projectLink: //myhopcard.com
-    -   projectTitle: Hopster Holiday Animations
+        projectYear: 2018
+    -   projectTitle: Tap Every Time Animation
         projectLink: https://dribbble.com/shots/3802736-Hop-Tap
+        projectYear: 2017
     
 -   title: Cascadia Threads
+    website: //cascadiathreads.com
     description: Designing the Pacific Northwest
+    longDescription: Being a part of the launch CT in 2015, I managed the website build, tee shirt design, modeling, photography and logo animation for marketing.
     featuredImage: /assets/images/cascadiathreads.jpg
+    pageImage: /assets/images/cascadia-3.jpg
     permalink: /projects/cascadiathreads/
     projectList:
     -   projectTitle: Website build
         projectLink: https://cascadiathreads.com
+        projectYear: 2015
     -   projectTitle: Apparel Design and Photography
         projectLink: http://instagram.com/cascadiathreads/myhopcard.com
+        projectYear: 2019
     -   projectTitle: Logo Animation
         projectLink: https://dribbble.com/shots/4073010-Spacey-Hues
+        projectYear: 2018

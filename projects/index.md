@@ -3,7 +3,7 @@ layout: default
 title: Projects
 permalink: /projects/
 ---
-<div class="container">
+<div class="container projects">
     <div class="row">
         {% for project in site.data.projects %}
             <div class="col-sm-6 mb-3">

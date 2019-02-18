@@ -3,6 +3,8 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
+// You can pass in custom variables from variables file.
+
 *, *:before, *:after
 {
 	-moz-box-sizing: border-box;
@@ -39,12 +41,7 @@ nav{
     border-bottom:1px solid rgba(0, 0, 0, 0.125);
 }
 
-
-.content {
-  font-size: $custom-font-size;
-}
-
-.card-body{
+.projects .card-body{
     border-top:1px solid rgba(0, 0, 0, 0.125);
 }
 
