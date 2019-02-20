@@ -25,9 +25,11 @@
                           <td><small class="text-muted">{{ projectItem.projectYear  }}</small></td>
                           <td>{{ projectItem.projectTitle }}</td>
                           <td>
-                            <a href="{{ projectItem.projectLink }}" target="_new">
-                                <i class="fas fa-external-link-square-alt"></i>
-                            </a>
+                                {% if projectItem.projectLink != null %}
+                                    <a href="{{ projectItem.projectLink }}" target="_new">
+                                      <i class="fas fa-external-link-square-alt"></i>
+                                    </a>
+                                {% endif %}
                         </td>
                       </tr>
                     {% endfor %}

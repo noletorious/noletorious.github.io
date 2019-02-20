@@ -44,7 +44,7 @@ title: Noel Torres - Portfolio
             style="margin:-4rem 1rem 1rem 0rem;"
             data-toggle="tooltip"
             data-placement="bottom"
-            title="Work: Currently not looking"
+            title="Work: <i class='far fa-eye-slash'></i>"
             />
           <h3 class="card-title font-weight-bold mb-0">{{ site.title }}</h3>
           <p class="card-text">{{ site.description }}</p>

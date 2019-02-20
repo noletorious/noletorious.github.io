@@ -7,14 +7,18 @@
     pageImage: /assets/images/tilikum.jpg
     projectList:
         -   projectTitle: Designing the new Transit Tracker
-            projectLink: https://trimet.org/#/tracker
+            projectLink: 
             projectYear: WIP
-        -   projectTitle: Preview Line 74-162nd Ave Flythrough
-            projectLink: https://www.youtube.com/watch?v=BO72XAPARzM
-            projectYear: 2018
         -   projectTitle: New blog, new Riders Club
             projectLink: //blog.trimet.org
             projectYear: 2019
+        -   projectTitle: Preview Line 74-162nd Ave Flythrough
+            projectLink: https://www.youtube.com/watch?v=BO72XAPARzM
+            projectYear: 2018
+        -   projectTitle: Service Improvements (Morrison-Yamhill)
+            projectLink: https://www.youtube.com/watch?v=7XCC1K-BSNo
+            projectYear: 2017
+
             
     
 -   title: Attensa
@@ -26,16 +30,25 @@
     permalink: /projects/attensa/
     projectList:
     -   projectTitle: Design Reference
-        projectLink: //
+        projectLink:
         projectYear: 2016
-    -   projectTitle: Information Management Infographic
-        projectLink: //
+    -   projectTitle: Topic Intelligence (Infographic)
+        projectLink: https://twitter.com/Attensa/status/748171062861500416
+        projectYear: 2016
+    -   projectTitle: Sharing is the Grease in Workplace Collaboration (Infographic)
+        projectLink: https://twitter.com/Attensa/status/639820820097974276
         projectYear: 2015
-    -   projectTitle: Onboarding User guide
-        projectLink: //
+    -   projectTitle: Knowledge Management is Dead (Infographic)
+        projectLink: https://twitter.com/Attensa/status/628249052027691008
+        projectYear: 2015
+    -   projectTitle: Vital Role of Information in the Workplace (Infographic)
+        projectLink: https://twitter.com/Attensa/status/586286788412596225
+        projectYear: 2015
+    -   projectTitle: Onboarding User Guide
+        projectLink:
         projectYear: 2014
     
--   title: Hop FastPass
+-   title: Hop Fastpass
     website: http://myhopcard.com
     description: Heavy 2D animation, video production, webpage designs, and more.
     longDescription: Hop FastPass is Portland's new ticket to ride transit. From animations to web design, I help bring to life the world of Hopsters.
@@ -43,6 +56,9 @@
     pageImage: /assets/images/hopfastpass-2.jpg
     permalink: /projects/hopfastpass/
     projectList:
+    -   projectTitle: Official Hop Fastpass
+        projectLink: https://www.youtube.com/watch?v=EE-is5yXBu4&list=PLtJW_Q-z9fw84dtHW2sraG_q_MzS_b-A8
+        projectYear: WIP
     -   projectTitle: Hop How to videos
         projectLink: https://www.youtube.com/watch?v=EE-is5yXBu4&list=PLtJW_Q-z9fw84dtHW2sraG_q_MzS_b-A8
         projectYear: WIP

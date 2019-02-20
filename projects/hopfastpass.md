@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Hop FastPass
+title: Hop Fastpass
 permalink: /projects/hopfastpass/
 ---
 
