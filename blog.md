@@ -12,7 +12,7 @@ permalink: /blog/
         <div class="col">
           {% for post in site.posts %}
             <a href="{{ post.url }}" >
-              <div class="card mb-3">
+              <div class="card mb-3 bg-light">
                 <div class="card-body">
                       <span>{{ post.date | date: "%B %d, %Y" }} </span>
                       <h2 class="font-weight-bold mb-0">{{ post.title }}</h2>
