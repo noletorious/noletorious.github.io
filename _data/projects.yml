@@ -7,17 +7,17 @@
     pageImage: /assets/images/tilikum.jpg
     projectList:
         -   projectTitle: Designing the new Transit Tracker
-            projectLink: 
+            projectLink: http://trimet-transit-tracker.herokuapp.com
             projectYear: WIP
         -   projectTitle: New blog, new Riders Club
             projectLink: //blog.trimet.org
             projectYear: 2019
-        -   projectTitle: Preview Line 74-162nd Ave Flythrough
-            projectLink: https://www.youtube.com/watch?v=BO72XAPARzM
-            projectYear: 2018
-        -   projectTitle: Service Improvements (Morrison-Yamhill)
-            projectLink: https://www.youtube.com/watch?v=7XCC1K-BSNo
-            projectYear: 2017
+        -   projectTitle: New Service Line Google Fly through
+            projectLink: https://www.youtube.com/watch?v=j0IN2biMAw0&list=PLtJW_Q-z9fw8Q2b5tdBReibFKAVfOJEy6
+            projectYear: WIP
+        -   projectTitle: OTP-Mod Project
+            projectLink: http://trimet.org/betaplanner
+            projectYear: WIP
 
             
     
@@ -57,7 +57,7 @@
     permalink: /projects/hopfastpass/
     projectList:
     -   projectTitle: Official Hop Fastpass
-        projectLink: https://www.youtube.com/watch?v=EE-is5yXBu4&list=PLtJW_Q-z9fw84dtHW2sraG_q_MzS_b-A8
+        projectLink: https://youtu.be/rEfZ9AhD1yw?list=PLtJW_Q-z9fw84dtHW2sraG_q_MzS_b-A8
         projectYear: WIP
     -   projectTitle: Hop How to videos
         projectLink: https://www.youtube.com/watch?v=EE-is5yXBu4&list=PLtJW_Q-z9fw84dtHW2sraG_q_MzS_b-A8
