@@ -49,7 +49,7 @@ title: Noel Torres - Portfolio
           <h3 class="card-title font-weight-bold mb-0">{{ site.title }}</h3>
           <p class="card-text">{{ site.description }}</p>
           <ul class="list-group list-group-flush text-muted">
-            <li class="list-group-item"><i class="fas fa-terminal fa-xs"></i> &nbsp; Javascript, React, Gatsby</li>
+            <li class="list-group-item"><i class="fas fa-terminal fa-xs"></i> &nbsp; React, Gatsby, Git</li>
             <li class="list-group-item"><i class="fab fa-adobe fa-sm"></i> &nbsp; PS, AI, XD, AE, DW</li>
           </ul>
           <a style="border-radius:0 0 .25rem .25rem" href="/projects/" class="btn btn-secondary btn-sm">View Projects</a>
